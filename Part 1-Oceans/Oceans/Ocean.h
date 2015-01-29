@@ -16,14 +16,6 @@ extern const int kMAX_DEPTH;
 extern const int kMAX_TILE;
 extern const int kSURFACE;
 
-typedef enum {
-    Empty,
-    Tuna,
-    Salmon
-} FishType;
-
 @property (nonatomic,strong) NSArray *board;
-
--(Fish*)fishAtDepth:(int)depth tile:(int)tile;
 
 @end

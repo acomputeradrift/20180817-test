@@ -8,23 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "Submarine.h"
-#import "Fish.h"
-#import "GiantSalmon.h"
-#import "GiantTuna.h"
-#import "Ocean.h"
 
 @interface OceansTests_06 : XCTestCase
-
-@property (nonatomic, strong) Submarine *sub;
-@property (nonatomic, strong) Ocean *ocean;
-@property (nonatomic, strong) GiantSalmon *salmon;
-@property (nonatomic, strong) GiantTuna *tuna;
 
 @end
 
 @implementation OceansTests_06
-
 
 /*
  The submarine contains cargo where the fish are stored (in order of first caught to last caught).
@@ -34,11 +23,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    
-    self.sub = [[Submarine alloc] init];
-    self.ocean = [[Ocean alloc] init];
-    self.salmon = [[GiantSalmon alloc] init];
-    self.tuna = [[GiantTuna alloc] init];
+
 }
 
 - (void)tearDown {
@@ -48,46 +33,25 @@
 
 - (void)testSubHasEmptyCargo
 {
-    int result = (int)self.sub.cargo.count;
-    int expected = 0;
-    XCTAssertEqual((int)expected, (int)result, @"at initalization sub should have empty cargo");
+    /* at initalization sub should have empty cargo. Test that the count of cargo items is 0 */
+    
+    XCTAssertTrue(false);
 }
 
 - (void)testSubGoesFishing
 {
+    /* count of cargo after submarine picks up a fish at depth = 1, tile = 3 is 1.
+     Test that the count of cargo items is 0 */
     
-    self.sub.depth = 1;
-    self.sub.tile = 3;
-    
-    [self.sub addtoCargo:self.ocean depth:self.sub.depth tile:self.sub.tile];
-    
-    int result = (int)self.sub.cargo.count;
-    int expected = 1;
-    
-    XCTAssertEqual((int)expected, (int)result, @"count of cargo after picks up a fish at depth = 1, tile = 3 is 1");
+    XCTAssertTrue(false);
 }
 
 - (void)testSubGoesFishingCorrectly
 {
+    /* submarine's cargo initially contains a Giant Tuna and then navigates to the giant salmon at depth = 2, tile = 1.
+     Test that in cargo[0] is a Giant Tuna and in cargo[1] is a Giant Salmon */
     
-    [self.sub dive];
-    [self.sub descend];
-    [self.sub forward];
-    
-    //sub's cargo initially contains a Giant Tuna
-    self.sub.cargo = [NSMutableArray arrayWithObjects:self.tuna, nil];
-    
-    [self.sub addtoCargo:self.ocean depth:self.sub.depth tile:self.sub.tile];
-    
-    BOOL expected = false;
-    
-    if ([self.sub.cargo[0] isKindOfClass:[GiantTuna class]]){
-        if ([self.sub.cargo[1] isKindOfClass:[GiantSalmon class]]){
-            expected = true;
-        }
-    }
-    
-    XCTAssertTrue(expected, @"sub's cargo initially contains a Giant Tuna and then navigates to the giant salmon at depth = 2, tile = 1");
+    XCTAssertTrue(false);
 }
 
 

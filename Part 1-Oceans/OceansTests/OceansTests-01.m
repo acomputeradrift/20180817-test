@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "Submarine.h"
 #import "Ocean.h"
 
 @interface OceansTests : XCTestCase

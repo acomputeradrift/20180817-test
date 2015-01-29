@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF8AC8FA1A772F5200934412 /* DrunkCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC8F91A772F5200934412 /* DrunkCaptain.m */; };
-		AF8AC9851A79638400934412 /* NormalCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9841A79638400934412 /* NormalCaptain.m */; };
 		AFC38C461A72BE76008CFF2B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFC38C451A72BE76008CFF2B /* README.md */; };
 		AFE98E001A572F2700F4CB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98DFF1A572F2700F4CB09 /* main.m */; };
 		AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E021A572F2700F4CB09 /* AppDelegate.m */; };
@@ -18,11 +16,7 @@
 		AFE98E0E1A572F2700F4CB09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E0C1A572F2700F4CB09 /* LaunchScreen.xib */; };
 		AFE98E1A1A572F2700F4CB09 /* OceansTests-01.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E191A572F2700F4CB09 /* OceansTests-01.m */; };
 		AFE98E261A57319900F4CB09 /* Ocean.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E251A57319900F4CB09 /* Ocean.m */; };
-		AFE98E291A5731A600F4CB09 /* Submarine.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E281A5731A600F4CB09 /* Submarine.m */; };
 		AFE98E2B1A57666E00F4CB09 /* OceansTests-02.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */; };
-		AFE98E2E1A5766D300F4CB09 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E2D1A5766D300F4CB09 /* Fish.m */; };
-		AFE98E311A576B1000F4CB09 /* GiantSalmon.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E301A576B1000F4CB09 /* GiantSalmon.m */; };
-		AFE98E341A576B2B00F4CB09 /* GiantTuna.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E331A576B2B00F4CB09 /* GiantTuna.m */; };
 		AFE98E361A576BC600F4CB09 /* OceansTests-03.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E351A576BC600F4CB09 /* OceansTests-03.m */; };
 		AFE98E3A1A5770D600F4CB09 /* OceansTests-04.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E391A5770D600F4CB09 /* OceansTests-04.m */; };
 		AFE98E3C1A577AF400F4CB09 /* OceansTests-05.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */; };
@@ -40,11 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF8AC8F51A772D3C00934412 /* CaptainProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainProtocol.h; sourceTree = "<group>"; };
-		AF8AC8F81A772F5200934412 /* DrunkCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrunkCaptain.h; sourceTree = "<group>"; };
-		AF8AC8F91A772F5200934412 /* DrunkCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrunkCaptain.m; sourceTree = "<group>"; };
-		AF8AC9831A79638400934412 /* NormalCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCaptain.h; sourceTree = "<group>"; };
-		AF8AC9841A79638400934412 /* NormalCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCaptain.m; sourceTree = "<group>"; };
 		AFC38C451A72BE76008CFF2B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AFE98DFA1A572F2700F4CB09 /* Oceans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oceans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE98DFE1A572F2700F4CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,15 +50,7 @@
 		AFE98E191A572F2700F4CB09 /* OceansTests-01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-01.m"; sourceTree = "<group>"; };
 		AFE98E241A57319900F4CB09 /* Ocean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ocean.h; sourceTree = "<group>"; };
 		AFE98E251A57319900F4CB09 /* Ocean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ocean.m; sourceTree = "<group>"; };
-		AFE98E271A5731A600F4CB09 /* Submarine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Submarine.h; sourceTree = "<group>"; };
-		AFE98E281A5731A600F4CB09 /* Submarine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Submarine.m; sourceTree = "<group>"; };
 		AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-02.m"; sourceTree = "<group>"; };
-		AFE98E2C1A5766D300F4CB09 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
-		AFE98E2D1A5766D300F4CB09 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
-		AFE98E2F1A576B1000F4CB09 /* GiantSalmon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiantSalmon.h; sourceTree = "<group>"; };
-		AFE98E301A576B1000F4CB09 /* GiantSalmon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiantSalmon.m; sourceTree = "<group>"; };
-		AFE98E321A576B2B00F4CB09 /* GiantTuna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiantTuna.h; sourceTree = "<group>"; };
-		AFE98E331A576B2B00F4CB09 /* GiantTuna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiantTuna.m; sourceTree = "<group>"; };
 		AFE98E351A576BC600F4CB09 /* OceansTests-03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-03.m"; sourceTree = "<group>"; };
 		AFE98E391A5770D600F4CB09 /* OceansTests-04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-04.m"; sourceTree = "<group>"; };
 		AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-05.m"; sourceTree = "<group>"; };
@@ -117,21 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				AFE98E231A57315500F4CB09 /* Not Needed */,
-				AF8AC8F51A772D3C00934412 /* CaptainProtocol.h */,
-				AF8AC9831A79638400934412 /* NormalCaptain.h */,
-				AF8AC9841A79638400934412 /* NormalCaptain.m */,
-				AF8AC8F81A772F5200934412 /* DrunkCaptain.h */,
-				AF8AC8F91A772F5200934412 /* DrunkCaptain.m */,
-				AFE98E2F1A576B1000F4CB09 /* GiantSalmon.h */,
-				AFE98E301A576B1000F4CB09 /* GiantSalmon.m */,
-				AFE98E321A576B2B00F4CB09 /* GiantTuna.h */,
-				AFE98E331A576B2B00F4CB09 /* GiantTuna.m */,
-				AFE98E2C1A5766D300F4CB09 /* Fish.h */,
-				AFE98E2D1A5766D300F4CB09 /* Fish.m */,
 				AFE98E241A57319900F4CB09 /* Ocean.h */,
 				AFE98E251A57319900F4CB09 /* Ocean.m */,
-				AFE98E271A5731A600F4CB09 /* Submarine.h */,
-				AFE98E281A5731A600F4CB09 /* Submarine.m */,
 			);
 			path = Oceans;
 			sourceTree = "<group>";
@@ -283,16 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE98E261A57319900F4CB09 /* Ocean.m in Sources */,
-				AFE98E341A576B2B00F4CB09 /* GiantTuna.m in Sources */,
-				AFE98E291A5731A600F4CB09 /* Submarine.m in Sources */,
-				AF8AC8FA1A772F5200934412 /* DrunkCaptain.m in Sources */,
 				AFE98E061A572F2700F4CB09 /* ViewController.m in Sources */,
-				AFE98E2E1A5766D300F4CB09 /* Fish.m in Sources */,
 				AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */,
 				AFC38C461A72BE76008CFF2B /* README.md in Sources */,
-				AFE98E311A576B1000F4CB09 /* GiantSalmon.m in Sources */,
 				AFE98E001A572F2700F4CB09 /* main.m in Sources */,
-				AF8AC9851A79638400934412 /* NormalCaptain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,6 @@
 //
 
 #import "Ocean.h"
-#import "Fish.h"
-#import "GiantTuna.h"
-#import "GiantSalmon.h"
 
 @implementation Ocean
 
@@ -38,21 +35,5 @@ const int kSURFACE = 0;
     }
     return self;
 }
-
--(Fish*)fishAtDepth:(int)depth tile:(int)tile
-{
-    NSString *aFishType = self.board[depth-1][tile];
-    if ([aFishType isEqualToString:@"S"]){
-        GiantSalmon *fish = [[GiantSalmon alloc] init];
-        return fish;
-    }
-    else if ([aFishType isEqualToString:@"T"]){
-        GiantTuna *fish = [[GiantTuna alloc] init];
-        return fish;
-    }
-    else return nil;
-}
-
-
 
 @end
