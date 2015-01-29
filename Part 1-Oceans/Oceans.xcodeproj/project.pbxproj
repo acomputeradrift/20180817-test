@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8AC9941A7AB6E600934412 /* Submarine.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9931A7AB6E600934412 /* Submarine.m */; };
+		AF8AC9971A7AB8BF00934412 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9961A7AB8BF00934412 /* Fish.m */; };
+		AF8AC99A1A7AB8D000934412 /* GiantSalmon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9991A7AB8D000934412 /* GiantSalmon.m */; };
+		AF8AC99D1A7AB8DE00934412 /* GiantTuna.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC99C1A7AB8DE00934412 /* GiantTuna.m */; };
+		AF8AC9A11A7ABAC000934412 /* DrunkCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */; };
+		AF8AC9A41A7ABACE00934412 /* NormalCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */; };
 		AFC38C461A72BE76008CFF2B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFC38C451A72BE76008CFF2B /* README.md */; };
 		AFE98E001A572F2700F4CB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98DFF1A572F2700F4CB09 /* main.m */; };
 		AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E021A572F2700F4CB09 /* AppDelegate.m */; };
@@ -34,6 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF8AC9921A7AB6E600934412 /* Submarine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Submarine.h; sourceTree = "<group>"; };
+		AF8AC9931A7AB6E600934412 /* Submarine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Submarine.m; sourceTree = "<group>"; };
+		AF8AC9951A7AB8BF00934412 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		AF8AC9961A7AB8BF00934412 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		AF8AC9981A7AB8D000934412 /* GiantSalmon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiantSalmon.h; sourceTree = "<group>"; };
+		AF8AC9991A7AB8D000934412 /* GiantSalmon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiantSalmon.m; sourceTree = "<group>"; };
+		AF8AC99B1A7AB8DE00934412 /* GiantTuna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiantTuna.h; sourceTree = "<group>"; };
+		AF8AC99C1A7AB8DE00934412 /* GiantTuna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiantTuna.m; sourceTree = "<group>"; };
+		AF8AC99E1A7ABAB200934412 /* CaptainProtcol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptainProtcol.h; sourceTree = "<group>"; };
+		AF8AC99F1A7ABAC000934412 /* DrunkCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrunkCaptain.h; sourceTree = "<group>"; };
+		AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrunkCaptain.m; sourceTree = "<group>"; };
+		AF8AC9A21A7ABACE00934412 /* NormalCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCaptain.h; sourceTree = "<group>"; };
+		AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCaptain.m; sourceTree = "<group>"; };
 		AFC38C451A72BE76008CFF2B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AFE98DFA1A572F2700F4CB09 /* Oceans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oceans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE98DFE1A572F2700F4CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +119,19 @@
 				AFE98E231A57315500F4CB09 /* Not Needed */,
 				AFE98E241A57319900F4CB09 /* Ocean.h */,
 				AFE98E251A57319900F4CB09 /* Ocean.m */,
+				AF8AC9921A7AB6E600934412 /* Submarine.h */,
+				AF8AC9931A7AB6E600934412 /* Submarine.m */,
+				AF8AC9951A7AB8BF00934412 /* Fish.h */,
+				AF8AC9961A7AB8BF00934412 /* Fish.m */,
+				AF8AC9981A7AB8D000934412 /* GiantSalmon.h */,
+				AF8AC9991A7AB8D000934412 /* GiantSalmon.m */,
+				AF8AC99B1A7AB8DE00934412 /* GiantTuna.h */,
+				AF8AC99C1A7AB8DE00934412 /* GiantTuna.m */,
+				AF8AC99E1A7ABAB200934412 /* CaptainProtcol.h */,
+				AF8AC99F1A7ABAC000934412 /* DrunkCaptain.h */,
+				AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */,
+				AF8AC9A21A7ABACE00934412 /* NormalCaptain.h */,
+				AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */,
 			);
 			path = Oceans;
 			sourceTree = "<group>";
@@ -251,10 +283,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE98E261A57319900F4CB09 /* Ocean.m in Sources */,
+				AF8AC99D1A7AB8DE00934412 /* GiantTuna.m in Sources */,
+				AF8AC9971A7AB8BF00934412 /* Fish.m in Sources */,
+				AF8AC9A11A7ABAC000934412 /* DrunkCaptain.m in Sources */,
 				AFE98E061A572F2700F4CB09 /* ViewController.m in Sources */,
+				AF8AC9941A7AB6E600934412 /* Submarine.m in Sources */,
 				AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */,
+				AF8AC99A1A7AB8D000934412 /* GiantSalmon.m in Sources */,
 				AFC38C461A72BE76008CFF2B /* README.md in Sources */,
 				AFE98E001A572F2700F4CB09 /* main.m in Sources */,
+				AF8AC9A41A7ABACE00934412 /* NormalCaptain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

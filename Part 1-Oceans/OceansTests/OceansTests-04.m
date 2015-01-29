@@ -11,6 +11,13 @@
 #import "Submarine.h"
 #import "Ocean.h"
 
+@interface Submarine()
+- (int)tile;
+- (void) setTile:(int)tile;
+- (void)forward;
+- (void)backward;
+@end
+
 @interface OceansTests_04 : XCTestCase
 
 @property (nonatomic, strong) Submarine *sub;
@@ -35,7 +42,7 @@
 {
     int result = self.sub.tile;
     int expected = 0;
-    XCTAssertEqual((int)expected, (int)result, @"should initially be on the surface");
+    XCTAssertEqual((int)expected, (int)result, @"sub should initially be on the surface");
 }
 
 - (void)testSubDeptStaysSameOnForward

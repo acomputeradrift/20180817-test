@@ -9,6 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "Ocean.h"
+#import "Submarine.h"
+
+@interface Submarine()
+- (int)depth;
+- (void) setDepth:(int)depth;
+- (void)dive;
+- (void)surface;
+- (void)ascend;
+- (void)descend;
+@end
 
 @interface OceansTests : XCTestCase
 

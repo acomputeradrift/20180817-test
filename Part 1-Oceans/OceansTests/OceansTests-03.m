@@ -12,6 +12,16 @@
 #import "GiantTuna.h"
 #import "Fish.h"
 
+@interface GiantSalmon()
+- (int) weight;
+- (int) value;
+@end
+
+@interface GiantTuna()
+- (int) weight;
+- (int) value;
+@end
+
 @interface OceansTests_03 : XCTestCase
 
 @property (nonatomic, strong) GiantSalmon *giantSalmon;

@@ -16,6 +16,11 @@
 #import "DrunkCaptain.h"
 #import "NormalCaptain.h"
 
+@interface Submarine()
+- (void) setDelegate:(id) delegate;
+-(Fish*) goFishInOcean:(Ocean*) ocean depth:(int) depth tile:(int) tile;
+@end
+
 @interface OceansTests_05 : XCTestCase
 
 @property (nonatomic, strong) Ocean *ocean;

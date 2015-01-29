@@ -10,6 +10,13 @@
 #import <XCTest/XCTest.h>
 #import "Fish.h"
 
+
+@interface Fish()
+- (instancetype)initWithWeightAndValue:(int) weight value:(int) value;
+- (int) weight;
+- (int) value;
+@end
+
 @interface OceansTests_02 : XCTestCase
 
 @property (nonatomic, strong) Fish *fish1;
