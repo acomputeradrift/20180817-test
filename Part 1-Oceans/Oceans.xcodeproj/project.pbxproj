@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8AC8FA1A772F5200934412 /* DrunkCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC8F91A772F5200934412 /* DrunkCaptain.m */; };
+		AF8AC9851A79638400934412 /* NormalCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9841A79638400934412 /* NormalCaptain.m */; };
+		AFC38C461A72BE76008CFF2B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFC38C451A72BE76008CFF2B /* README.md */; };
+		AFE98E001A572F2700F4CB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98DFF1A572F2700F4CB09 /* main.m */; };
+		AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E021A572F2700F4CB09 /* AppDelegate.m */; };
+		AFE98E061A572F2700F4CB09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E051A572F2700F4CB09 /* ViewController.m */; };
+		AFE98E091A572F2700F4CB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E071A572F2700F4CB09 /* Main.storyboard */; };
+		AFE98E0B1A572F2700F4CB09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E0A1A572F2700F4CB09 /* Images.xcassets */; };
+		AFE98E0E1A572F2700F4CB09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E0C1A572F2700F4CB09 /* LaunchScreen.xib */; };
+		AFE98E1A1A572F2700F4CB09 /* OceansTests-01.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E191A572F2700F4CB09 /* OceansTests-01.m */; };
+		AFE98E261A57319900F4CB09 /* Ocean.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E251A57319900F4CB09 /* Ocean.m */; };
+		AFE98E291A5731A600F4CB09 /* Submarine.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E281A5731A600F4CB09 /* Submarine.m */; };
+		AFE98E2B1A57666E00F4CB09 /* OceansTests-02.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */; };
+		AFE98E2E1A5766D300F4CB09 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E2D1A5766D300F4CB09 /* Fish.m */; };
+		AFE98E311A576B1000F4CB09 /* GiantSalmon.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E301A576B1000F4CB09 /* GiantSalmon.m */; };
+		AFE98E341A576B2B00F4CB09 /* GiantTuna.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E331A576B2B00F4CB09 /* GiantTuna.m */; };
+		AFE98E361A576BC600F4CB09 /* OceansTests-03.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E351A576BC600F4CB09 /* OceansTests-03.m */; };
+		AFE98E3A1A5770D600F4CB09 /* OceansTests-04.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E391A5770D600F4CB09 /* OceansTests-04.m */; };
+		AFE98E3C1A577AF400F4CB09 /* OceansTests-05.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */; };
+		AFE98E3E1A577B0400F4CB09 /* OceansTests-06.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E3D1A577B0400F4CB09 /* OceansTests-06.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE98E141A572F2700F4CB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE98DF21A572F2700F4CB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE98DF91A572F2700F4CB09;
+			remoteInfo = Oceans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF8AC8F51A772D3C00934412 /* CaptainProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainProtocol.h; sourceTree = "<group>"; };
+		AF8AC8F81A772F5200934412 /* DrunkCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrunkCaptain.h; sourceTree = "<group>"; };
+		AF8AC8F91A772F5200934412 /* DrunkCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrunkCaptain.m; sourceTree = "<group>"; };
+		AF8AC9831A79638400934412 /* NormalCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCaptain.h; sourceTree = "<group>"; };
+		AF8AC9841A79638400934412 /* NormalCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCaptain.m; sourceTree = "<group>"; };
+		AFC38C451A72BE76008CFF2B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFE98DFA1A572F2700F4CB09 /* Oceans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oceans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE98DFE1A572F2700F4CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE98DFF1A572F2700F4CB09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFE98E011A572F2700F4CB09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFE98E021A572F2700F4CB09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFE98E041A572F2700F4CB09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFE98E051A572F2700F4CB09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFE98E081A572F2700F4CB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFE98E0A1A572F2700F4CB09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFE98E0D1A572F2700F4CB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFE98E131A572F2700F4CB09 /* OceansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OceansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE98E181A572F2700F4CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE98E191A572F2700F4CB09 /* OceansTests-01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-01.m"; sourceTree = "<group>"; };
+		AFE98E241A57319900F4CB09 /* Ocean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ocean.h; sourceTree = "<group>"; };
+		AFE98E251A57319900F4CB09 /* Ocean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ocean.m; sourceTree = "<group>"; };
+		AFE98E271A5731A600F4CB09 /* Submarine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Submarine.h; sourceTree = "<group>"; };
+		AFE98E281A5731A600F4CB09 /* Submarine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Submarine.m; sourceTree = "<group>"; };
+		AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-02.m"; sourceTree = "<group>"; };
+		AFE98E2C1A5766D300F4CB09 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		AFE98E2D1A5766D300F4CB09 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		AFE98E2F1A576B1000F4CB09 /* GiantSalmon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiantSalmon.h; sourceTree = "<group>"; };
+		AFE98E301A576B1000F4CB09 /* GiantSalmon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiantSalmon.m; sourceTree = "<group>"; };
+		AFE98E321A576B2B00F4CB09 /* GiantTuna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiantTuna.h; sourceTree = "<group>"; };
+		AFE98E331A576B2B00F4CB09 /* GiantTuna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiantTuna.m; sourceTree = "<group>"; };
+		AFE98E351A576BC600F4CB09 /* OceansTests-03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-03.m"; sourceTree = "<group>"; };
+		AFE98E391A5770D600F4CB09 /* OceansTests-04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-04.m"; sourceTree = "<group>"; };
+		AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-05.m"; sourceTree = "<group>"; };
+		AFE98E3D1A577B0400F4CB09 /* OceansTests-06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-06.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE98DF71A572F2700F4CB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE98E101A572F2700F4CB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE98DF11A572F2700F4CB09 = {
+			isa = PBXGroup;
+			children = (
+				AFC38C451A72BE76008CFF2B /* README.md */,
+				AFE98DFC1A572F2700F4CB09 /* Oceans */,
+				AFE98E161A572F2700F4CB09 /* OceansTests */,
+				AFE98DFB1A572F2700F4CB09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE98DFB1A572F2700F4CB09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98DFA1A572F2700F4CB09 /* Oceans.app */,
+				AFE98E131A572F2700F4CB09 /* OceansTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE98DFC1A572F2700F4CB09 /* Oceans */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98E231A57315500F4CB09 /* Not Needed */,
+				AF8AC8F51A772D3C00934412 /* CaptainProtocol.h */,
+				AF8AC9831A79638400934412 /* NormalCaptain.h */,
+				AF8AC9841A79638400934412 /* NormalCaptain.m */,
+				AF8AC8F81A772F5200934412 /* DrunkCaptain.h */,
+				AF8AC8F91A772F5200934412 /* DrunkCaptain.m */,
+				AFE98E2F1A576B1000F4CB09 /* GiantSalmon.h */,
+				AFE98E301A576B1000F4CB09 /* GiantSalmon.m */,
+				AFE98E321A576B2B00F4CB09 /* GiantTuna.h */,
+				AFE98E331A576B2B00F4CB09 /* GiantTuna.m */,
+				AFE98E2C1A5766D300F4CB09 /* Fish.h */,
+				AFE98E2D1A5766D300F4CB09 /* Fish.m */,
+				AFE98E241A57319900F4CB09 /* Ocean.h */,
+				AFE98E251A57319900F4CB09 /* Ocean.m */,
+				AFE98E271A5731A600F4CB09 /* Submarine.h */,
+				AFE98E281A5731A600F4CB09 /* Submarine.m */,
+			);
+			path = Oceans;
+			sourceTree = "<group>";
+		};
+		AFE98DFD1A572F2700F4CB09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98DFE1A572F2700F4CB09 /* Info.plist */,
+				AFE98DFF1A572F2700F4CB09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE98E161A572F2700F4CB09 /* OceansTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98E191A572F2700F4CB09 /* OceansTests-01.m */,
+				AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */,
+				AFE98E351A576BC600F4CB09 /* OceansTests-03.m */,
+				AFE98E391A5770D600F4CB09 /* OceansTests-04.m */,
+				AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */,
+				AFE98E3D1A577B0400F4CB09 /* OceansTests-06.m */,
+				AFE98E171A572F2700F4CB09 /* Supporting Files */,
+			);
+			path = OceansTests;
+			sourceTree = "<group>";
+		};
+		AFE98E171A572F2700F4CB09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98E181A572F2700F4CB09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE98E231A57315500F4CB09 /* Not Needed */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98E0C1A572F2700F4CB09 /* LaunchScreen.xib */,
+				AFE98DFD1A572F2700F4CB09 /* Supporting Files */,
+				AFE98E0A1A572F2700F4CB09 /* Images.xcassets */,
+				AFE98E071A572F2700F4CB09 /* Main.storyboard */,
+				AFE98E021A572F2700F4CB09 /* AppDelegate.m */,
+				AFE98E041A572F2700F4CB09 /* ViewController.h */,
+				AFE98E051A572F2700F4CB09 /* ViewController.m */,
+				AFE98E011A572F2700F4CB09 /* AppDelegate.h */,
+			);
+			name = "Not Needed";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE98DF91A572F2700F4CB09 /* Oceans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE98E1D1A572F2800F4CB09 /* Build configuration list for PBXNativeTarget "Oceans" */;
+			buildPhases = (
+				AFE98DF61A572F2700F4CB09 /* Sources */,
+				AFE98DF71A572F2700F4CB09 /* Frameworks */,
+				AFE98DF81A572F2700F4CB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oceans;
+			productName = Oceans;
+			productReference = AFE98DFA1A572F2700F4CB09 /* Oceans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE98E121A572F2700F4CB09 /* OceansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE98E201A572F2800F4CB09 /* Build configuration list for PBXNativeTarget "OceansTests" */;
+			buildPhases = (
+				AFE98E0F1A572F2700F4CB09 /* Sources */,
+				AFE98E101A572F2700F4CB09 /* Frameworks */,
+				AFE98E111A572F2700F4CB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE98E151A572F2700F4CB09 /* PBXTargetDependency */,
+			);
+			name = OceansTests;
+			productName = OceansTests;
+			productReference = AFE98E131A572F2700F4CB09 /* OceansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE98DF21A572F2700F4CB09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "com.lighthouse-labs";
+				TargetAttributes = {
+					AFE98DF91A572F2700F4CB09 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AFE98E121A572F2700F4CB09 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AFE98DF91A572F2700F4CB09;
+					};
+				};
+			};
+			buildConfigurationList = AFE98DF51A572F2700F4CB09 /* Build configuration list for PBXProject "Oceans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE98DF11A572F2700F4CB09;
+			productRefGroup = AFE98DFB1A572F2700F4CB09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE98DF91A572F2700F4CB09 /* Oceans */,
+				AFE98E121A572F2700F4CB09 /* OceansTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE98DF81A572F2700F4CB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE98E091A572F2700F4CB09 /* Main.storyboard in Resources */,
+				AFE98E0E1A572F2700F4CB09 /* LaunchScreen.xib in Resources */,
+				AFE98E0B1A572F2700F4CB09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE98E111A572F2700F4CB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE98DF61A572F2700F4CB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE98E261A57319900F4CB09 /* Ocean.m in Sources */,
+				AFE98E341A576B2B00F4CB09 /* GiantTuna.m in Sources */,
+				AFE98E291A5731A600F4CB09 /* Submarine.m in Sources */,
+				AF8AC8FA1A772F5200934412 /* DrunkCaptain.m in Sources */,
+				AFE98E061A572F2700F4CB09 /* ViewController.m in Sources */,
+				AFE98E2E1A5766D300F4CB09 /* Fish.m in Sources */,
+				AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */,
+				AFC38C461A72BE76008CFF2B /* README.md in Sources */,
+				AFE98E311A576B1000F4CB09 /* GiantSalmon.m in Sources */,
+				AFE98E001A572F2700F4CB09 /* main.m in Sources */,
+				AF8AC9851A79638400934412 /* NormalCaptain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE98E0F1A572F2700F4CB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE98E2B1A57666E00F4CB09 /* OceansTests-02.m in Sources */,
+				AFE98E3C1A577AF400F4CB09 /* OceansTests-05.m in Sources */,
+				AFE98E3A1A5770D600F4CB09 /* OceansTests-04.m in Sources */,
+				AFE98E3E1A577B0400F4CB09 /* OceansTests-06.m in Sources */,
+				AFE98E1A1A572F2700F4CB09 /* OceansTests-01.m in Sources */,
+				AFE98E361A576BC600F4CB09 /* OceansTests-03.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE98E151A572F2700F4CB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE98DF91A572F2700F4CB09 /* Oceans */;
+			targetProxy = AFE98E141A572F2700F4CB09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFE98E071A572F2700F4CB09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE98E081A572F2700F4CB09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFE98E0C1A572F2700F4CB09 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE98E0D1A572F2700F4CB09 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE98E1B1A572F2800F4CB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFE98E1C1A572F2800F4CB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE98E1E1A572F2800F4CB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oceans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFE98E1F1A572F2800F4CB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oceans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFE98E211A572F2800F4CB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OceansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oceans.app/Oceans";
+			};
+			name = Debug;
+		};
+		AFE98E221A572F2800F4CB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OceansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oceans.app/Oceans";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE98DF51A572F2700F4CB09 /* Build configuration list for PBXProject "Oceans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE98E1B1A572F2800F4CB09 /* Debug */,
+				AFE98E1C1A572F2800F4CB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE98E1D1A572F2800F4CB09 /* Build configuration list for PBXNativeTarget "Oceans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE98E1E1A572F2800F4CB09 /* Debug */,
+				AFE98E1F1A572F2800F4CB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE98E201A572F2800F4CB09 /* Build configuration list for PBXNativeTarget "OceansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE98E211A572F2800F4CB09 /* Debug */,
+				AFE98E221A572F2800F4CB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE98DF21A572F2700F4CB09 /* Project object */;
+}
