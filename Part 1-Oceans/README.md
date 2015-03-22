@@ -1,6 +1,6 @@
 ## Overview
 ====================
-This Test is sepeated into 2 Parts. You have 2 hours to complete both Part 1 and Part 2. 
+This Test is sepeated into 2 Parts. You have 3 hours to complete both Part 1 and Part 2. 
 
 The passing grade for this test is 70%.
 
@@ -78,20 +78,17 @@ You can also lose marks for bad form. Some Examples of bad form include:
 03. 10%
 04. 10%
 05. 20%
-07. 15% (Bonus)
+06. 15% (Bonus)
 
 ## Other Important Notes: 
 
-* Do not modify code in the XCTestCase classes. (except for the Question 7 - Bonus question)
+* Do not modify code in the XCTestCase classes. (except for the Question 6 - Bonus question)
 * The tests will require you to create new classes as you progress.
 * You are allowed to google around
 * Please do not create a public repo nor share your work in any other way with anyone during the test
-* The bonus question requires you to write Tests in the XCTestCase_07 class and code in other classes to make that test pass.
-* This test is intended to take 2hr to complete
+* The bonus question requires you to write Tests in the OceansTests-06 class and code in other classes to make that test pass.
 
 PART 2: Khurram's favourite Jamz (A Simple TableView App)
 ====================
 
 See other folder for Part 2 details
-
-

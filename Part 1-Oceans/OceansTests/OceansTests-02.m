@@ -12,7 +12,7 @@
 
 
 @interface Fish()
-- (instancetype)initWithWeightAndValue:(int) weight value:(int) value;
+- (instancetype)initWithWeight:(int) weight andValue:(int) value;
 - (int) weight;
 - (int) value;
 @end
@@ -30,8 +30,8 @@
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
-    self.fish1 = [[Fish alloc] initWithWeightAndValue:1 value:15];
-    self.fish2 = [[Fish alloc] initWithWeightAndValue:3 value:25];
+    self.fish1 = [[Fish alloc] initWithWeight:1 andValue:15];
+    self.fish2 = [[Fish alloc] initWithWeight:3 andValue:25];
 
 }
 

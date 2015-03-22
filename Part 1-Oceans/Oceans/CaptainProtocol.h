@@ -9,5 +9,9 @@
 #ifndef Oceans_CaptainProtcol_h
 #define Oceans_CaptainProtcol_h
 
+@protocol CaptainProtocol <NSObject>
+
+
+@end
 
 #endif

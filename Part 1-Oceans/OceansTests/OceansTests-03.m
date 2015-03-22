@@ -82,7 +82,7 @@
 {
     int result = self.giantTuna.value;
     int expected = 25;
-    XCTAssertEqual((int)expected, (int)result, @"A giant tuna's value is $30");
+    XCTAssertEqual((int)expected, (int)result, @"A giant tuna's value is $25");
     
 }
 

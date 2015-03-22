@@ -15,9 +15,10 @@
 #import "Submarine.h"
 #import "DrunkCaptain.h"
 #import "NormalCaptain.h"
+#import "CaptainProtocol.h"
 
 @interface Submarine()
-- (void) setDelegate:(id) delegate;
+- (void) setDelegate:(id<CaptainProtocol>) delegate;
 -(Fish*) goFishInOcean:(Ocean*) ocean depth:(int) depth tile:(int) tile;
 @end
 
