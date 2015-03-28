@@ -91,7 +91,7 @@
     
     int result = self.sub.tile;
     int expected = 3;
-    XCTAssertEqual((int)expected, (int)result, @"moves the sub backward (towards the right) in the ocean");
+    XCTAssertEqual((int)expected, (int)result, @"moves the sub backward (towards the left) in the ocean");
 }
 
 - (void)testSubCannotMoveBackward
