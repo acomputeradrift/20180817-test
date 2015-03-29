@@ -13,6 +13,7 @@
 		AF8AC99D1A7AB8DE00934412 /* GiantTuna.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC99C1A7AB8DE00934412 /* GiantTuna.m */; };
 		AF8AC9A11A7ABAC000934412 /* DrunkCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */; };
 		AF8AC9A41A7ABACE00934412 /* NormalCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */; };
+		AF9046A51AC777C8005724F2 /* OceansTests-01.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9046A41AC777C8005724F2 /* OceansTests-01.m */; };
 		AFC38C461A72BE76008CFF2B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFC38C451A72BE76008CFF2B /* README.md */; };
 		AFE98E001A572F2700F4CB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98DFF1A572F2700F4CB09 /* main.m */; };
 		AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E021A572F2700F4CB09 /* AppDelegate.m */; };
@@ -20,10 +21,9 @@
 		AFE98E091A572F2700F4CB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E071A572F2700F4CB09 /* Main.storyboard */; };
 		AFE98E0B1A572F2700F4CB09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E0A1A572F2700F4CB09 /* Images.xcassets */; };
 		AFE98E0E1A572F2700F4CB09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFE98E0C1A572F2700F4CB09 /* LaunchScreen.xib */; };
-		AFE98E1A1A572F2700F4CB09 /* OceansTests-01.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E191A572F2700F4CB09 /* OceansTests-01.m */; };
+		AFE98E1A1A572F2700F4CB09 /* OceansTests-02.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E191A572F2700F4CB09 /* OceansTests-02.m */; };
 		AFE98E261A57319900F4CB09 /* Ocean.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E251A57319900F4CB09 /* Ocean.m */; };
-		AFE98E2B1A57666E00F4CB09 /* OceansTests-02.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */; };
-		AFE98E361A576BC600F4CB09 /* OceansTests-03.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E351A576BC600F4CB09 /* OceansTests-03.m */; };
+		AFE98E2B1A57666E00F4CB09 /* OceansTests-03.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E2A1A57666E00F4CB09 /* OceansTests-03.m */; };
 		AFE98E3A1A5770D600F4CB09 /* OceansTests-04.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E391A5770D600F4CB09 /* OceansTests-04.m */; };
 		AFE98E3C1A577AF400F4CB09 /* OceansTests-05.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */; };
 		AFE98E3E1A577B0400F4CB09 /* OceansTests-06.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E3D1A577B0400F4CB09 /* OceansTests-06.m */; };
@@ -53,6 +53,7 @@
 		AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrunkCaptain.m; sourceTree = "<group>"; };
 		AF8AC9A21A7ABACE00934412 /* NormalCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCaptain.h; sourceTree = "<group>"; };
 		AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCaptain.m; sourceTree = "<group>"; };
+		AF9046A41AC777C8005724F2 /* OceansTests-01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-01.m"; sourceTree = "<group>"; };
 		AFC38C451A72BE76008CFF2B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AFE98DFA1A572F2700F4CB09 /* Oceans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oceans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE98DFE1A572F2700F4CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,11 +67,10 @@
 		AFE98E0D1A572F2700F4CB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AFE98E131A572F2700F4CB09 /* OceansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OceansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE98E181A572F2700F4CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFE98E191A572F2700F4CB09 /* OceansTests-01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-01.m"; sourceTree = "<group>"; };
+		AFE98E191A572F2700F4CB09 /* OceansTests-02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-02.m"; sourceTree = "<group>"; };
 		AFE98E241A57319900F4CB09 /* Ocean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ocean.h; sourceTree = "<group>"; };
 		AFE98E251A57319900F4CB09 /* Ocean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ocean.m; sourceTree = "<group>"; };
-		AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-02.m"; sourceTree = "<group>"; };
-		AFE98E351A576BC600F4CB09 /* OceansTests-03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-03.m"; sourceTree = "<group>"; };
+		AFE98E2A1A57666E00F4CB09 /* OceansTests-03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-03.m"; sourceTree = "<group>"; };
 		AFE98E391A5770D600F4CB09 /* OceansTests-04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-04.m"; sourceTree = "<group>"; };
 		AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-05.m"; sourceTree = "<group>"; };
 		AFE98E3D1A577B0400F4CB09 /* OceansTests-06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OceansTests-06.m"; sourceTree = "<group>"; };
@@ -148,9 +148,9 @@
 		AFE98E161A572F2700F4CB09 /* OceansTests */ = {
 			isa = PBXGroup;
 			children = (
-				AFE98E191A572F2700F4CB09 /* OceansTests-01.m */,
-				AFE98E2A1A57666E00F4CB09 /* OceansTests-02.m */,
-				AFE98E351A576BC600F4CB09 /* OceansTests-03.m */,
+				AF9046A41AC777C8005724F2 /* OceansTests-01.m */,
+				AFE98E191A572F2700F4CB09 /* OceansTests-02.m */,
+				AFE98E2A1A57666E00F4CB09 /* OceansTests-03.m */,
 				AFE98E391A5770D600F4CB09 /* OceansTests-04.m */,
 				AFE98E3B1A577AF400F4CB09 /* OceansTests-05.m */,
 				AFE98E3D1A577B0400F4CB09 /* OceansTests-06.m */,
@@ -300,12 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE98E2B1A57666E00F4CB09 /* OceansTests-02.m in Sources */,
+				AFE98E2B1A57666E00F4CB09 /* OceansTests-03.m in Sources */,
 				AFE98E3C1A577AF400F4CB09 /* OceansTests-05.m in Sources */,
 				AFE98E3A1A5770D600F4CB09 /* OceansTests-04.m in Sources */,
 				AFE98E3E1A577B0400F4CB09 /* OceansTests-06.m in Sources */,
-				AFE98E1A1A572F2700F4CB09 /* OceansTests-01.m in Sources */,
-				AFE98E361A576BC600F4CB09 /* OceansTests-03.m in Sources */,
+				AF9046A51AC777C8005724F2 /* OceansTests-01.m in Sources */,
+				AFE98E1A1A572F2700F4CB09 /* OceansTests-02.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

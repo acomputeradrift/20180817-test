@@ -12,8 +12,10 @@
 #import "Ocean.h"
 
 @interface Submarine()
+- (int)depth;
 - (int)tile;
 - (void) setTile:(int)tile;
+- (void) setDepth:(int)depth;
 - (void)forward;
 - (void)backward;
 @end

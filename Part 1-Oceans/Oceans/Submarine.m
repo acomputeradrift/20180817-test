@@ -10,13 +10,4 @@
 
 @implementation Submarine
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.depth=0;
-    }
-    return self;
-}
-
 @end

@@ -10,6 +10,4 @@
 
 @interface Submarine : NSObject
 
-@property (nonatomic) int depth;
-
 @end

@@ -17,6 +17,10 @@
 #import "NormalCaptain.h"
 #import "CaptainProtocol.h"
 
+@interface Ocean()
+-(Fish*)fishAtDepth:(int)depth tile:(int)tile;
+@end
+
 @interface Submarine()
 - (void) setDelegate:(id<CaptainProtocol>) delegate;
 -(Fish*) goFishInOcean:(Ocean*) ocean depth:(int) depth tile:(int) tile;
@@ -46,6 +50,16 @@
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+}
+
+/*
+ The ocean has fish at certain depths and tiles.
+ */
+
+- (void)testFindGiantSalmon
+{
+    self.fish = [self.ocean fishAtDepth:1 tile:3];
+    XCTAssertTrue([self.fish isKindOfClass:[GiantSalmon class]], @"finds a giant salmon on a tile that contains a giant salmon");
 }
 
 /*

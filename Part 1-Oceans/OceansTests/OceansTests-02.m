@@ -1,6 +1,6 @@
 //
-//  OceansTests-02.m
-//  Oceans
+//  OceansTests.m
+//  OceansTests
 //
 //  Created by Daniel Mathews on 2015-01-02.
 //  Copyright (c) 2015 com.lighthouse-labs. All rights reserved.
@@ -8,19 +8,24 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "GiantSalmon.h"
+#import "GiantTuna.h"
 #import "Fish.h"
 
+@interface GiantSalmon()
+- (int) weight;
+- (int) value;
+@end
 
-@interface Fish()
-- (instancetype)initWithWeight:(int) weight andValue:(int) value;
+@interface GiantTuna()
 - (int) weight;
 - (int) value;
 @end
 
 @interface OceansTests_02 : XCTestCase
 
-@property (nonatomic, strong) Fish *fish1;
-@property (nonatomic, strong) Fish *fish2;
+@property (nonatomic, strong) GiantSalmon *giantSalmon;
+@property (nonatomic, strong) GiantTuna *giantTuna;
 
 @end
 
@@ -30,42 +35,55 @@
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
-    self.fish1 = [[Fish alloc] initWithWeight:1 andValue:15];
-    self.fish2 = [[Fish alloc] initWithWeight:3 andValue:25];
-
+    self.giantSalmon = [[GiantSalmon alloc] init];
+    self.giantTuna = [[GiantTuna alloc] init];
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    // Put teardown code here. This method is called after the invocation of each test method i n the class.
     [super tearDown];
 }
 
-- (void)testFish1HasCorrectWeight
+- (void)testGiantSalmonIsAFish
 {
-    int result = self.fish1.weight;
-    int expected = 1;
-    XCTAssertEqual((int)expected, (int)result, @"fish1 should weight 1 pound");
+    XCTAssertTrue([self.giantSalmon isKindOfClass:[Fish class]], @"All giant Salmons are fish");
 }
 
-- (void)testFish1HasCorrectValue
+- (void)testGiantSalmonIsCorrectWeight
 {
-    int result = self.fish1.value;
-    int expected = 15;
-    XCTAssertEqual((int)expected, (int)result, @"fish1 should value $15");
+    int result = self.giantSalmon.weight;
+    int expected = 4;
+    XCTAssertEqual((int)expected, (int)result, @"A giant salmon weights 4 pounds");
+    
 }
 
-- (void)testFish2HasCorrectWeight
+- (void)testGiantSalmonIsCorrectValue
 {
-    int result = self.fish2.weight;
-    int expected = 3;
-    XCTAssertEqual((int)expected, (int)result, @"fish2 should weight 3 pounds");
+    int result = self.giantSalmon.value;
+    int expected = 30;
+    XCTAssertEqual((int)expected, (int)result, @"A giant salmon's value is $30");
+    
 }
 
-- (void)testFish2HasCorrectValue
+- (void)testGiantTunaIsAFish
 {
-    int result = self.fish2.value;
+    XCTAssertTrue([self.giantTuna isKindOfClass:[Fish class]], @"All giant tunas are fish");
+}
+
+- (void)testGiantTunaIsCorrectWeight
+{
+    int result = self.giantTuna.weight;
+    int expected = 2;
+    XCTAssertEqual((int)expected, (int)result, @"A giant tuna weights 2 pounds");
+    
+}
+
+- (void)testGiantTunaIsCorrectValue
+{
+    int result = self.giantTuna.value;
     int expected = 25;
-    XCTAssertEqual((int)expected, (int)result, @"fish2 should value $25");
+    XCTAssertEqual((int)expected, (int)result, @"A giant tuna's value is $25");
+    
 }
 
 @end

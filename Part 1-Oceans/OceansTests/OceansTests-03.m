@@ -1,5 +1,5 @@
 //
-//  OceansTests-03.m
+//  OceansTests-02.m
 //  Oceans
 //
 //  Created by Daniel Mathews on 2015-01-02.
@@ -8,82 +8,129 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "GiantSalmon.h"
-#import "GiantTuna.h"
-#import "Fish.h"
+#import "Ocean.h"
+#import "Submarine.h"
 
-@interface GiantSalmon()
-- (int) weight;
-- (int) value;
-@end
-
-@interface GiantTuna()
-- (int) weight;
-- (int) value;
+@interface Submarine()
+- (int)depth;
+- (void)setDepth:(int)depth;
+- (void)dive;
+- (void)surface;
+- (void)ascend;
+- (void)descend;
 @end
 
 @interface OceansTests_03 : XCTestCase
 
-@property (nonatomic, strong) GiantSalmon *giantSalmon;
-@property (nonatomic, strong) GiantTuna *giantTuna;
+@property (nonatomic, strong) Submarine *sub;
 
 @end
+
 
 @implementation OceansTests_03
 
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    
-    self.giantSalmon = [[GiantSalmon alloc] init];
-    self.giantTuna = [[GiantTuna alloc] init];
+    self.sub = [Submarine new];
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method i n the class.
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
-- (void)testGiantSalmonIsAFish
+- (void)testSubHasInitialDepth
 {
-    XCTAssertTrue([self.giantSalmon isKindOfClass:[Fish class]], @"All giant Salmons are fish");
+    int result = self.sub.depth;
+    int expected = 0;
+    XCTAssertEqual((int)expected, (int)result, @"sub's inital depth should be at the SURFACE (0)");
 }
 
-- (void)testGiantSalmonIsCorrectWeight
+- (void)testSubInitalDive
 {
-    int result = self.giantSalmon.weight;
-    int expected = 4;
-    XCTAssertEqual((int)expected, (int)result, @"A giant salmon weights 4 pounds");
-
+    [self.sub dive];
+    int result = self.sub.depth;
+    int expected = 1;
+    XCTAssertEqual((int)expected, (int)result, @"sub intally dives down to depth 1");
 }
 
-- (void)testGiantSalmonIsCorrectValue
+- (void)testSubCannotDive
 {
-    int result = self.giantSalmon.value;
-    int expected = 30;
-    XCTAssertEqual((int)expected, (int)result, @"A giant salmon's value is $30");
-
-}
-
-- (void)testGiantTunaIsAFish
-{
-    XCTAssertTrue([self.giantTuna isKindOfClass:[Fish class]], @"All giant tunas are fish");
-}
-
-- (void)testGiantTunaIsCorrectWeight
-{
-    int result = self.giantTuna.weight;
+    self.sub.depth = 2;
+    [self.sub dive];
+    
+    int result = self.sub.depth;
     int expected = 2;
-    XCTAssertEqual((int)expected, (int)result, @"A giant tuna weights 2 pounds");
-    
+    XCTAssertEqual((int)expected, (int)result, @"sub cannot dive if the sub is already below the surface");
 }
 
-- (void)testGiantTunaIsCorrectValue
+- (void)testSubSurfaces
 {
-    int result = self.giantTuna.value;
-    int expected = 25;
-    XCTAssertEqual((int)expected, (int)result, @"A giant tuna's value is $25");
+    self.sub.depth = 1;
+    [self.sub surface];
+    int result = self.sub.depth;
+    int expected = kSURFACE;
+    XCTAssertEqual((int)expected, (int)result, @"brings the sub out of the water only if the sub is at depth = 1");
+}
+
+- (void)testSubCannotSurface
+{
+    self.sub.depth = 2;
+    [self.sub surface];
     
+    int result = self.sub.depth;
+    int expected = 2;
+    XCTAssertEqual((int)expected, (int)result, @"can't surface the submarine when it is in deeper waters");
+}
+
+- (void)testSubDescend
+{
+    self.sub.depth = 2;
+    [self.sub descend];
+    
+    int result = self.sub.depth;
+    int expected = 3;
+    XCTAssertEqual((int)expected, (int)result, @"descend takes the sub deeper into the ocean");
+}
+
+- (void)testSubCannotDescendAtSurface
+{
+    [self.sub descend];
+    
+    int result = self.sub.depth;
+    int expected = 0;
+    XCTAssertEqual((int)expected, (int)result, @"descend doesn't work if the submarine is at the surface");
+}
+
+- (void)testSubCannotDescendAtMaxDept
+{
+    self.sub.depth = 4;
+    [self.sub descend];
+    
+    int result = self.sub.depth;
+    int expected = 4;
+    XCTAssertEqual((int)expected, (int)result, @"descend doesn't work if the submarine is at MaxDepth");
+}
+
+- (void)testSubAscend
+{
+    self.sub.depth = 2;
+    [self.sub ascend];
+    
+    int result = self.sub.depth;
+    int expected = 1;
+    XCTAssertEqual((int)expected, (int)result, @"ascend allows the sub to get closer to the surface");
+}
+
+- (void)testSubCannotAscendAtDepth1
+{
+    self.sub.depth = 1;
+    [self.sub ascend];
+    
+    int result = self.sub.depth;
+    int expected = 1;
+    XCTAssertEqual((int)expected, (int)result, @"ascend only works if the submarine is under water and not directly under the surface");
 }
 
 @end
