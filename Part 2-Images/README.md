@@ -3,7 +3,8 @@ PART 2: Khurram's favourite Jamz
 
 Part 2 will test your abililty to make a simple tableview app
 
-Create a New Master-Detail Project. 
+Create a New Project add a Table View Controller.
+
 * Add a Song class, with three properties title (string), artist (string), image. Add a custom initalizer to Song that sets the three properties with given input
 * Add the following array called 'songs' to your MasterViewController:
 	songs will contain 3 songs:  // you can find images in the Part 2 folder
