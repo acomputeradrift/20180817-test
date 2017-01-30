@@ -14,7 +14,6 @@
 		AF8AC9A11A7ABAC000934412 /* DrunkCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */; };
 		AF8AC9A41A7ABACE00934412 /* NormalCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */; };
 		AF9046A51AC777C8005724F2 /* OceansTests-01.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9046A41AC777C8005724F2 /* OceansTests-01.m */; };
-		AFC38C461A72BE76008CFF2B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFC38C451A72BE76008CFF2B /* README.md */; };
 		AFE98E001A572F2700F4CB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98DFF1A572F2700F4CB09 /* main.m */; };
 		AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E021A572F2700F4CB09 /* AppDelegate.m */; };
 		AFE98E061A572F2700F4CB09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE98E051A572F2700F4CB09 /* ViewController.m */; };
@@ -116,7 +115,6 @@
 		AFE98DFC1A572F2700F4CB09 /* Oceans */ = {
 			isa = PBXGroup;
 			children = (
-				AFE98E231A57315500F4CB09 /* Not Needed */,
 				AFE98E241A57319900F4CB09 /* Ocean.h */,
 				AFE98E251A57319900F4CB09 /* Ocean.m */,
 				AF8AC9921A7AB6E600934412 /* Submarine.h */,
@@ -132,17 +130,9 @@
 				AF8AC9A01A7ABAC000934412 /* DrunkCaptain.m */,
 				AF8AC9A21A7ABACE00934412 /* NormalCaptain.h */,
 				AF8AC9A31A7ABACE00934412 /* NormalCaptain.m */,
+				AFE98E231A57315500F4CB09 /* Supporting Files */,
 			);
 			path = Oceans;
-			sourceTree = "<group>";
-		};
-		AFE98DFD1A572F2700F4CB09 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AFE98DFE1A572F2700F4CB09 /* Info.plist */,
-				AFE98DFF1A572F2700F4CB09 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		AFE98E161A572F2700F4CB09 /* OceansTests */ = {
@@ -167,11 +157,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AFE98E231A57315500F4CB09 /* Not Needed */ = {
+		AFE98E231A57315500F4CB09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				AFE98E0C1A572F2700F4CB09 /* LaunchScreen.xib */,
-				AFE98DFD1A572F2700F4CB09 /* Supporting Files */,
+				AFE98DFE1A572F2700F4CB09 /* Info.plist */,
+				AFE98DFF1A572F2700F4CB09 /* main.m */,
 				AFE98E0A1A572F2700F4CB09 /* Images.xcassets */,
 				AFE98E071A572F2700F4CB09 /* Main.storyboard */,
 				AFE98E021A572F2700F4CB09 /* AppDelegate.m */,
@@ -179,7 +170,7 @@
 				AFE98E051A572F2700F4CB09 /* ViewController.m */,
 				AFE98E011A572F2700F4CB09 /* AppDelegate.h */,
 			);
-			name = "Not Needed";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +217,7 @@
 		AFE98DF21A572F2700F4CB09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "com.lighthouse-labs";
 				TargetAttributes = {
 					AFE98DF91A572F2700F4CB09 = {
@@ -290,7 +281,6 @@
 				AF8AC9941A7AB6E600934412 /* Submarine.m in Sources */,
 				AFE98E031A572F2700F4CB09 /* AppDelegate.m in Sources */,
 				AF8AC99A1A7AB8D000934412 /* GiantSalmon.m in Sources */,
-				AFC38C461A72BE76008CFF2B /* README.md in Sources */,
 				AFE98E001A572F2700F4CB09 /* main.m in Sources */,
 				AF8AC9A41A7ABACE00934412 /* NormalCaptain.m in Sources */,
 			);
@@ -352,15 +342,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -393,8 +387,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -402,6 +398,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -420,7 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oceans/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lighthouse-labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -430,7 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oceans/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lighthouse-labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -439,16 +436,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OceansTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lighthouse-labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oceans.app/Oceans";
 			};
@@ -458,12 +451,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = OceansTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lighthouse-labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oceans.app/Oceans";
 			};
