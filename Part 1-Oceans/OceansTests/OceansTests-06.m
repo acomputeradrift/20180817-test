@@ -41,7 +41,7 @@
 - (void)testSubGoesFishing
 {
     /* count of cargo after submarine picks up a fish at depth = 1, tile = 3 is 1.
-     Test that the count of cargo items is 0 */
+     Test that the count of cargo items is 1 */
     
     XCTAssertTrue(false);
 }
