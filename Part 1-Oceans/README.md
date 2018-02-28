@@ -1,13 +1,12 @@
-## Overview
-====================
-This Test is sepeated into 2 Parts. You have 3 hours to complete both Part 1 and Part 2. 
+# Overview
+
+This Test is separated into 2 Parts. You have 3 hours to complete both Part 1 and Part 2. 
 
 The passing grade for this test is 70%.
 
 Both Parts should take a similar amount of time to complete.
 
-PART 1: We N3eD MoRe F!SH. DEPL0Y THA DEEP-FISHR-9000!
-====================
+## PART 1: We N3eD MoRe F!SH. DEPL0Y THA DEEP-FISHR-9000!
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~|^"~~~~~~~~~~~~~~~~~~~~~~~~~o~~~~~~~~~~~
         o                   |                  o      __o
@@ -31,7 +30,7 @@ PART 1: We N3eD MoRe F!SH. DEPL0Y THA DEEP-FISHR-9000!
                              |     \
 
 
-## Introduction
+### Introduction
 
 Part 1 will test your understanding of OOP principals.
 
@@ -41,11 +40,11 @@ Without the success of this vessel, The LFC™ will *GO UNDER*!
 
 **Please read this document very carefully before starting.**
 
-## Tip
+### Tip
 
 Read Ocean.h and Ocean.m first and make sure you understand everything in there, especially the BOARD.
 
-## Your Mission
+### Your Mission
 
 Your goal is the make all the tests pass.
 
@@ -53,17 +52,18 @@ Your goal is the make all the tests pass.
 
 1. Read the CODE for the test file that you ran
 2. Understand what tests it contains and what each test in that file is expecting
-3. Start implementing your code to satisify each test
+3. Start implementing your code to satisfy each test
 4. Run the test suite using `command + U`
-5. Repeat steps 1 through 4 until all tests pass.
+5. Repeat steps 1 through 4 until all tests pass
 
-## Marking
+### Marking
 
 Even if you make all the tests pass, you may lose marks for incorrectly implementing the solution (eg: incorrect use of OOP).
 
 This test is created such that there are indeed correct right ways to implement your app, and incorrect ways.
 
 You can also lose marks for bad form. Some Examples of bad form include:
+
 * Improper or confusing naming of variables, methods, etc.
 * Improper or confusing formatting
 * Overly verbose code that could be implemented much more simply
@@ -80,7 +80,7 @@ You can also lose marks for bad form. Some Examples of bad form include:
 05. 20%
 06. 15% (Bonus)
 
-## Other Important Notes: 
+### Other Important Notes: 
 
 * Do not modify code in the XCTestCase classes. (except for the Question 6 - Bonus question)
 * The tests will require you to create new classes as you progress.
@@ -88,7 +88,6 @@ You can also lose marks for bad form. Some Examples of bad form include:
 * Please do not create a public repo nor share your work in any other way with anyone during the test
 * The bonus question requires you to write Tests in the OceansTests-06 class and code in other classes to make that test pass.
 
-PART 2: Khurram's favourite Jamz (A Simple TableView App)
-====================
+## PART 2: Khurram's favourite Jamz (A Simple TableView App)
 
 See other folder for Part 2 details
